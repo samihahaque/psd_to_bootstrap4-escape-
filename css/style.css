@@ -1,0 +1,183 @@
+@font-face{
+    font-family:Brandon grotesque;
+    src:url(../fonts/brandon-grotesque-regular.otf);
+}
+body{
+    font-family:  Brandon grotesque;
+}
+body p{
+    color:#c0c0c0;
+}
+.custom_nav{
+    padding: 20px 0 !important;
+    margin-left:15px !important;
+}
+.custom_nav ul li a{
+    color:white !Important;
+    padding:0 35px !important;
+    transition: 0.7s;
+}
+.custom_nav ul li a:hover{
+    transform:scale(1.1);
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/slider.jpg);
+}
+.title1{
+    color:black;font-weight:lighter; font-size:60px
+}
+.title2{
+    color:black;
+    font-size:60px;
+    font-weight:bolder;
+}
+.text{
+    text-align: center;
+    color:white;
+    margin-top:17%;
+}
+.text h3{
+    margin:15px 0;
+    font-size: 32px;
+}
+.text h1{
+    margin:15px 0;
+    font-size:66px;
+    font-weight: bolder;
+}
+header button{
+    padding:10px 30px;
+    font-size:23px;
+    margin:40px 0px;
+    border:2px solid white;
+    transition: 0.7s;
+}
+header button:hover{
+    background-color: transparent;
+    transform:scale(1.1);
+    color:white;
+}
+.no_gutter{
+    padding:0 0;
+}
+.part1{
+    padding:70px 0;
+}
+.part1_text p{
+    padding:15px 0;
+}
+.part1 .part1_img{
+    text-align: center;
+}
+.part2{
+    padding:70px 0;
+    background-color:#fafafa;
+}
+.part2_text p{
+    padding:15px 0;
+}
+.part2 .part2_img{
+    text-align: center;
+}
+.list_img img{
+    width:100%;
+    padding-top:25px;
+}
+.list_text{
+    padding-top:25px;
+}
+.list{
+    padding:100px 0;
+}
+.comment{
+    background-color: #fafafa;
+    padding:80px 0;
+}
+.client_comment h5{
+    font-size: 26px;
+    color:#c0c0c0;
+}
+.client_comment p{
+    font-size: 20px;
+    color:#7690c5
+}
+.comment .client_img{
+    padding-top:60px;
+}
+.comment .client_comment{
+    margin-top:55px;
+    padding:45px 75px;
+    border:1px solid #ededed;
+    background-color: #ffffff;
+}
+.brand{
+    padding:50px 0;
+}
+.brand a img{
+    transition: 0.7s;
+}
+.brand a img:hover{
+    transform: scale(1.1);
+}
+.team{
+    background-color:black;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.team_title{
+    padding:20px 0;
+    color:white;
+}
+.team1{
+    padding:20px 0;
+}
+.team_detail{
+    color:white;
+}
+.last_text{
+    color:white;
+    padding:30px 170px;
+}
+.icon{
+    transition: 0.7s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+footer{
+    padding-top:60px;
+    padding-bottom:10px;
+    background-color:#7690c5;
+    color:white;
+}
+footer .title1{
+    color:white;
+}
+footer .title2{
+    color:white;
+}
+footer p{
+    color:white;
+}
+footer .form{
+    padding-bottom: 20px;
+}
+footer form .form-group{
+    padding:10px 0;
+}
+footer .pic i{
+    padding:20px 0;
+    font-size: 30px;
+}
+footer .info{
+    padding:20px 0;
+}
+footer hr{
+    background-color:white;
+}
+footer .end{
+    padding-top:10px;
+}

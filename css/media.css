@@ -1,0 +1,75 @@
+/*Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)*/
+
+
+@media (max-width: 767px) {
+    
+    .title1{
+    color:black;
+        font-weight:lighter; 
+        font-size:37px;
+}
+.title2{
+    color:black;
+    font-size:37px;
+    font-weight:bolder;
+}
+       .text h3{
+    margin:28px 0;
+    font-size: 25px;
+}
+.text h1{
+    margin:15px 0;
+    font-size:50px;
+    font-weight: bolder;
+} 
+    .text{
+    text-align: center;
+    color:white;
+    margin-top:35%;
+}
+    .comment .client_comment{
+    margin-top:25px;
+    padding:15px 20px;
+    border:1px solid #ededed;
+    background-color: #ffffff;
+}
+    .client_comment h5{
+    font-size: 16px;
+    color:#c0c0c0;
+}
+.client_comment p{
+    font-size: 13px;
+    color:#7690c5
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:992px){
+    .comment .client_comment{
+    margin-top:25px;
+    padding:25px 35px;
+    border:1px solid #ededed;
+    background-color: #ffffff;
+}
+    .client_comment h5{
+    font-size: 23px;
+    color:#c0c0c0;
+}
+.client_comment p{
+    font-size: 17px;
+    color:#7690c5
+}
+    footer .form{
+    padding-bottom: 20px;
+    margin-left: 30px;
+}   
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
