@@ -2,6 +2,7 @@
     font-family:Brandon grotesque;
     src:url(../fonts/brandon-grotesque-regular.otf);
 }
+
 body{
     font-family:  Brandon grotesque;
 }
@@ -21,10 +22,11 @@ body p{
     transform:scale(1.1);
 }
 header{
+    height:600px;
+    background-image: url(../images/slider.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/slider.jpg);
 }
 .title1{
     color:black;font-weight:lighter; font-size:60px
@@ -37,28 +39,28 @@ header{
 .text{
     text-align: center;
     color:white;
-    margin-top:17%;
+    margin-top:12%;
 }
 .text h3{
-    margin:15px 0;
+    margin-top:3%;
     font-size: 32px;
 }
 .text h1{
-    margin:15px 0;
+    margin-top: 2%;
     font-size:66px;
     font-weight: bolder;
 }
 header button{
-    padding:10px 30px;
-    font-size:23px;
-    margin:40px 0px;
+    padding:1.2% 3.5% !important;
+    font-size:23px !important;
+    margin:40px 0px !important;
     border:2px solid white;
-    transition: 0.7s;
+    transition: 0.7s !important;
 }
 header button:hover{
-    background-color: transparent;
+    background-color: transparent !important;
     transform:scale(1.1);
-    color:white;
+    color:white !important;
 }
 .no_gutter{
     padding:0 0;
